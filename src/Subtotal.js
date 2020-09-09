@@ -1,6 +1,6 @@
 import React from 'react';
 import './Subtotal.css';
-import CurrencyFprmat from "react-currency-format";
+import CurrencyFormat from "react-currency-format";
 import {useStateValue} from "./StateProvider";
 
 function Subtotal(){
@@ -15,7 +15,7 @@ function Subtotal(){
 
     return (
         <div className="subtotal">
-            <CurrencyFprmat
+            <CurrencyFormat
                 renderText={(value) => (
                     <>
                         <p>
