@@ -123,6 +123,7 @@ function Payment(){
                                 <button disabled={processing || disabled || succeeded}>
                                     <span>{processing ? <p>Processing</p> : "Buy Now"}</span>
                                 </button>
+                                <span className="payment__notice">Payment wont go through because my country doesnot allow international payment and I dont have the access to change the firebase plan to blaze  </span>
                             </div>
                             {error && <div>{error}</div>}
                         </form>
